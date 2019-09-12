@@ -1,0 +1,15 @@
+{
+  "prospectCampaignSpecificationInstanceRecord" : {
+    "prospectCampaignPerformanceRecord" : {
+      "prospectCampaignProcedureInstanceReference" : {
+        "employeeBusinessUnitReference" : "744932",
+        "prospectCampaignProcedureSetup" : "prospectCampaignProcedureSetup",
+        "prospectCampaignProcedureVersionNumber" : "prospectCampaignProcedureVersionNumber"
+      }
+    }
+  },
+  "prospectCampaignSpecificationCaptureActionTaskRecord" : {},
+  "prospectCampaignSpecificationCaptureActionTaskReference" : "PCSCATR765268",
+  "captureResponseRecord" : {},
+  "captureRecordReference" : "CRR753977"
+}

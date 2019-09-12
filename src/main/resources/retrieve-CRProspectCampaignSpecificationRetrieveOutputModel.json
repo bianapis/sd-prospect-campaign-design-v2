@@ -1,0 +1,47 @@
+{
+  "prospectCampaignSpecificationInstanceRecord" : {
+    "prospectCampaignMetrics" : {
+      "prospectCampaignMetricDefinition" : "prospectCampaignMetricDefinition",
+      "prospectCampaignMetricGoal" : "prospectCampaignMetricGoal"
+    },
+    "prospectCampaignPerformanceRecord" : {
+      "prospectCampaignProcedureInstanceReference" : {
+        "prospectCampaignProcedureResult" : "prospectCampaignProcedureResult",
+        "employeeBusinessUnitReference" : "790695",
+        "prospectCampaignProcedureSetup" : "prospectCampaignProcedureSetup",
+        "prospectCampaignProcedureVersionNumber" : "prospectCampaignProcedureVersionNumber"
+      }
+    },
+    "prospectCampaignSpecification" : {
+      "prospectCampaignExecutionGuidelines" : {
+        "prospectCampaignQualifications" : "prospectCampaignQualifications",
+        "prospectCampaignInteractionGuide" : "prospectCampaignInteractionGuide",
+        "prospectCampaignEligibility" : "prospectCampaignEligibility"
+      },
+      "prospectCampaignConsumables" : {
+        "prospectCampaignConsumableType" : "prospectCampaignConsumableType",
+        "prospectCampaignConsumableDescription" : "prospectCampaignConsumableDescription"
+      },
+      "prospectCampaignProductServiceUsage" : {
+        "productServiceCampaignTransferPricingArrangement" : "productServiceCampaignTransferPricingArrangement",
+        "prospectCampaignProductServiceType" : "prospectCampaignProductServiceType",
+        "productServiceCampaignEngagementDescription" : "productServiceCampaignEngagementDescription"
+      }
+    },
+    "prospectCampaignType" : "prospectCampaignType",
+    "prospectCampaignDescription" : "prospectCampaignDescription"
+  },
+  "prospectCampaignSpecificationRetrieveActionTaskRecord" : {},
+  "prospectCampaignSpecificationRetrieveActionResponse" : "prospectCampaignSpecificationRetrieveActionResponse",
+  "prospectCampaignSpecificationRetrieveActionTaskReference" : "PCSRATR799345",
+  "prospectCampaignSpecificationInstanceReportRecord" : {
+    "prospectCampaignSpecificationInstanceReportData" : "prospectCampaignSpecificationInstanceReportData",
+    "prospectCampaignSpecificationInstanceReport" : {},
+    "prospectCampaignSpecificationInstanceReportType" : "prospectCampaignSpecificationInstanceReportType"
+  },
+  "prospectCampaignSpecificationInstanceAnalysis" : {
+    "prospectCampaignSpecificationInstanceAnalysisReport" : {},
+    "prospectCampaignSpecificationInstanceAnalysisData" : "prospectCampaignSpecificationInstanceAnalysisData",
+    "prospectCampaignSpecificationInstanceAnalysisReportType" : "prospectCampaignSpecificationInstanceAnalysisReportType"
+  }
+}

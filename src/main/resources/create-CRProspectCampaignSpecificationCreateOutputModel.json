@@ -1,0 +1,37 @@
+{
+  "prospectCampaignSpecificationInstanceRecord" : {
+    "prospectCampaignMetrics" : {
+      "prospectCampaignMetricDefinition" : "prospectCampaignMetricDefinition",
+      "prospectCampaignMetricGoal" : "prospectCampaignMetricGoal"
+    },
+    "prospectCampaignPerformanceRecord" : {
+      "prospectCampaignProcedureInstanceReference" : {
+        "employeeBusinessUnitReference" : "720542",
+        "prospectCampaignProcedureSetup" : "prospectCampaignProcedureSetup",
+        "prospectCampaignProcedureVersionNumber" : "prospectCampaignProcedureVersionNumber"
+      }
+    },
+    "prospectCampaignSpecification" : {
+      "prospectCampaignExecutionGuidelines" : {
+        "prospectCampaignQualifications" : "prospectCampaignQualifications",
+        "prospectCampaignInteractionGuide" : "prospectCampaignInteractionGuide",
+        "prospectCampaignEligibility" : "prospectCampaignEligibility"
+      },
+      "prospectCampaignConsumables" : {
+        "prospectCampaignConsumableType" : "prospectCampaignConsumableType",
+        "prospectCampaignConsumableDescription" : "prospectCampaignConsumableDescription"
+      },
+      "prospectCampaignProductServiceUsage" : {
+        "productServiceCampaignTransferPricingArrangement" : "productServiceCampaignTransferPricingArrangement",
+        "prospectCampaignProductServiceType" : "prospectCampaignProductServiceType",
+        "productServiceCampaignEngagementDescription" : "productServiceCampaignEngagementDescription"
+      }
+    },
+    "prospectCampaignType" : "prospectCampaignType",
+    "prospectCampaignDescription" : "prospectCampaignDescription"
+  },
+  "prospectCampaignSpecificationCreateActionReference" : "PCSCAR787152",
+  "prospectCampaignSpecificationInstanceStatus" : "prospectCampaignSpecificationInstanceStatus",
+  "prospectCampaignSpecificationInstanceReference" : "PCSIR772660",
+  "prospectCampaignSpecificationCreateActionRecord" : {}
+}

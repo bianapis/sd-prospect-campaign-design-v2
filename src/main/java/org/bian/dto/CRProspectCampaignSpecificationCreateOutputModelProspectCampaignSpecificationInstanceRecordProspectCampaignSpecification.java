@@ -1,0 +1,67 @@
+package org.bian.dto;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.bian.dto.CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecificationProspectCampaignConsumables;
+import org.bian.dto.CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecificationProspectCampaignExecutionGuidelines;
+import org.bian.dto.CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecificationProspectCampaignProductServiceUsage;
+
+import javax.validation.Valid;
+  
+/**
+ * CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecification
+ */
+public class CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecification   {
+  private CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecificationProspectCampaignProductServiceUsage prospectCampaignProductServiceUsage = null;
+
+  private CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecificationProspectCampaignExecutionGuidelines prospectCampaignExecutionGuidelines = null;
+
+  private CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecificationProspectCampaignConsumables prospectCampaignConsumables = null;
+
+
+  /**
+   * Get prospectCampaignProductServiceUsage
+   * @return prospectCampaignProductServiceUsage
+  **/
+
+  public CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecificationProspectCampaignProductServiceUsage getProspectCampaignProductServiceUsage() {
+    return prospectCampaignProductServiceUsage;
+  }
+
+  public void setProspectCampaignProductServiceUsage(CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecificationProspectCampaignProductServiceUsage prospectCampaignProductServiceUsage) {
+    this.prospectCampaignProductServiceUsage = prospectCampaignProductServiceUsage;
+  }
+
+
+  /**
+   * Get prospectCampaignExecutionGuidelines
+   * @return prospectCampaignExecutionGuidelines
+  **/
+
+  public CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecificationProspectCampaignExecutionGuidelines getProspectCampaignExecutionGuidelines() {
+    return prospectCampaignExecutionGuidelines;
+  }
+
+  public void setProspectCampaignExecutionGuidelines(CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecificationProspectCampaignExecutionGuidelines prospectCampaignExecutionGuidelines) {
+    this.prospectCampaignExecutionGuidelines = prospectCampaignExecutionGuidelines;
+  }
+
+
+  /**
+   * Get prospectCampaignConsumables
+   * @return prospectCampaignConsumables
+  **/
+
+  public CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecificationProspectCampaignConsumables getProspectCampaignConsumables() {
+    return prospectCampaignConsumables;
+  }
+
+  public void setProspectCampaignConsumables(CRProspectCampaignSpecificationCreateOutputModelProspectCampaignSpecificationInstanceRecordProspectCampaignSpecificationProspectCampaignConsumables prospectCampaignConsumables) {
+    this.prospectCampaignConsumables = prospectCampaignConsumables;
+  }
+
+
+}
+
